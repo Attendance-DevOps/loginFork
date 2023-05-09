@@ -82,7 +82,7 @@ class SearchBar extends StatelessWidget {
               Icons.search,
               color: Color(0xffa9a9a9),
             ),
-            contentPadding: EdgeInsets.only(bottom: 15),
+            contentPadding: EdgeInsets.only(bottom: 17),
             hintText: 'Search'),
       ),
     );
