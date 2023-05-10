@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Login/login_screen.dart';
+import 'package:flutter_auth/Screens/profile/profile.dart';
 
 class SideBarMenu extends StatelessWidget {
   const SideBarMenu({Key? key}) : super(key: key);
@@ -16,6 +17,16 @@ class SideBarMenu extends StatelessWidget {
             Navigator.pop(context);
             Navigator.push(context, MaterialPageRoute(builder: ((context) {
               return LoginScreen();
+            })));
+          },
+        ),
+        ListTile(
+          contentPadding: const EdgeInsets.symmetric(vertical: 20),
+          title: const Center(child: Text('Profile')),
+          onTap: () {
+            Navigator.pop(context);
+            Navigator.push(context, MaterialPageRoute(builder: ((context) {
+              return ProfileScreen();
             })));
           },
         ),

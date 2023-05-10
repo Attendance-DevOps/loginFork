@@ -32,6 +32,7 @@ dependencies:
   ndialog: ^4.3.0
   cached_network_image: ^3.2.3
   flutter_svg: ^2.0.5
+  get: ^4.6.5
 dev_dependencies:
   flutter_test:
     sdk: flutter

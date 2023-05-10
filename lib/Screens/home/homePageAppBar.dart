@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'textFieldContainer.dart';
+
 class HomePageAppBar extends StatelessWidget with PreferredSizeWidget {
   HomePageAppBar({Key? key, required this.scaffoldKey}) : super(key: key);
   final scaffoldKey;
@@ -82,7 +83,7 @@ class SearchBar extends StatelessWidget {
               Icons.search,
               color: Color(0xffa9a9a9),
             ),
-            contentPadding: EdgeInsets.only(bottom: 16),
+            contentPadding: EdgeInsets.only(bottom: 12),
             hintText: 'Search'),
       ),
     );
